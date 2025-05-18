@@ -90,7 +90,7 @@ Refer to `recommendation_system.ipynb`:
 
 As detailed in `text_analysis_topic_detection_ml.ipynb`:
 - Sentiment analysis by mapping review stars
-- Topic modeling using LDA
+- Topic modeling using K-Means and LDA
 - Feature extraction using CountVectorizer, TF-IDF
 - Classification with Logistic Regression, SVM, and others
 
