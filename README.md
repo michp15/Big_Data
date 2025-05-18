@@ -56,20 +56,20 @@ SparkSession.builder \
 
 ## 🧹 1. Preprocessing & Exploratory Data Analysis (EDA)
 
-Located in `Preprocessing_EDA.pdf`, this phase includes:
+Located in `Preprocessing_EDA.ipynb`, this phase includes:
 - Schema inspection of business and user datasets
 - Filtering open businesses
 - Basic visualizations using `matplotlib`, `seaborn`, and `basemap`
 
 Refer to:
-- `Review_Tip_EDA.pdf` for review and tip file analysis
-- `text_analysis_topic_detection_ml.pdf` for sentiment classification preparation
+- `Review_Tip_EDA.ipynb` for review and tip file analysis
+- `text_analysis_topic_detection_ml.ipynb` for sentiment classification preparation
 
 ---
 
 ## 🔗 2. Graph-Based Analysis
 
-See `graph_analysis_setup_and_plot.pdf` and `graphs_setup_plot_algorithms.pdf`:
+See `graph_analysis_setup_and_plot.ipynb` and `graphs_setup_plot_algorithms.ipynb`:
 - Construct user–user friendship networks
 - User–business bipartite graphs
 - Business co-review networks
@@ -79,7 +79,7 @@ See `graph_analysis_setup_and_plot.pdf` and `graphs_setup_plot_algorithms.pdf`:
 
 ## 🤖 3. Recommendation System
 
-Refer to `recommendation_system.pdf`:
+Refer to `recommendation_system.ipynb`:
 - Implemented Collaborative Filtering using ALS from `pyspark.ml.recommendation`
 - Filtering for active users and businesses
 - Evaluation using RMSE
@@ -88,7 +88,7 @@ Refer to `recommendation_system.pdf`:
 
 ## 🧠 4. Text Analytics & Machine Learning
 
-As detailed in `text_analysis_topic_detection_ml.pdf`:
+As detailed in `text_analysis_topic_detection_ml.ipynb`:
 - Sentiment analysis by mapping review stars
 - Topic modeling using LDA
 - Feature extraction using CountVectorizer, TF-IDF
