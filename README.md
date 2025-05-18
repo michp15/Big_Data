@@ -45,11 +45,14 @@ pip install textblob
 Ensure Spark is properly configured with sufficient memory:
 ```python
 SparkSession.builder \
-    .appName("YelpEDA") \
+    .appName("Project") \
     .config("spark.jars.packages", "graphframes:graphframes:0.8.2-spark3.1-s_2.12") \
     .config("spark.driver.memory", "32g") \
     .config("spark.executor.memory", "32g") \
+    .config("spark.driver.maxResultSize", "4g") \
     .getOrCreate()
+
+# Note: "spark.driver.maxResultSize" can be set to "2g" as well.
 ```
 
 ---
